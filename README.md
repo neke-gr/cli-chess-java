@@ -9,17 +9,6 @@ An Object-Oriented Chess game engine implemented in Java featuring piece movemen
 - **Data Parsing:** Utility routines to load player accounts and initial game states directly from JSON configuration files (`accounts.json`, `games.json`).
 - **Custom Exception Handling:** Robust validation throwing specific errors (`InvalidMoveException`, `InvalidCommandException`) for illegal moves or CLI inputs.
 
-## File Structure
-
-text
-.
-├── src/                # Java source code files
-│   ├── input/          # Initial game configurations & account JSON files
-│   └── *.java          # Engine, strategy, factory, and piece classes
-├── .gitignore          # Excluded build artifacts and IDE files
-└── README.md           # Project documentation
-
-
 ## Compilation & Execution
 
 1. Compile all Java source files:
